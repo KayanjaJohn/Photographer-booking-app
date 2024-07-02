@@ -1,0 +1,102 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-color: white;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul {
+	display: flex;
+	align-items: center;
+}
+
+nav li {
+	list-style: none;
+	display: inline-block;
+	padding: 20px 30px;
+}
+
+nav ul li a {
+	color: black;
+	font-size: 17px;
+	position: relative;
+	text-decoration: none;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px 10px;
+	overflow: hodden;
+}
+
+nav ul li a:hover {
+	box-shadow: darkblue 1px 1px;
+	transform: translateY(-2px);
+}
+
+.logo {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+header h1 {
+	font-family: Poppins, sans-serif;
+	margin: 20px 0 5px 30px;
+	color: #f2b061;
+	font-size: 80px;
+}
+
+
+/* Desktop */
+@media (min-width: 1200px) {
+
+}
+
+/* Laptop */
+@media (min-width: 768px) and (max-width: 1199px) {
+
+}
+
+/* Tablet */
+@media (min-width: 481px) and (max-width: 767px) {
+
+}
+
+ /* Mobile */
+@media (min-width: 320px) and (max-width: 480px) {
+
+}
+
+ /* Extra Small Screens (e.g., iPhone 5) */
+@media (max-width: 319px) {
+
+}
+
+
+/* iPhone X and similar screens */
+@media (min-width: 375px) and (max-width: 812px) and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+ /* iPad and similar screens */
+@media (min-width: 768px) and (max-width: 1024px) and (-webkit-device-pixel-ratio: 2) {
+
+}
+
+ /* Portrait orientation */
+@media (orientation: portrait) {
+
+}
+
+ /* Landscape orientation */
+@media (orientation: landscape) {
+
+}
